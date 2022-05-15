@@ -1,6 +1,3 @@
-# secrets
-config.yaml
-config.*.yaml
 
 # pygtail offset
 debug.log.offset
