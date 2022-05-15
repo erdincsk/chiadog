@@ -99,7 +99,7 @@ _For updating from previous version, see section below._
 1. Clone the repository
 
 ```
-git clone https://github.com/martomi/chiadog.git
+git clone https://github.com/erdincsk/chiadog.git
 cd chiadog
 ```
 
