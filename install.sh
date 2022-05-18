@@ -33,3 +33,8 @@ pip3 install wheel && pip3 install -r requirements.txt
 
 # Deactivate virtual environment
 deactivate
+
+#her kurulumda host adını otomatik tanımla
+
+FIND_LINE_NO=$(awk '/notification_title_prefix:/{ print NR; exit }' config.yaml) #notification_title_prefix: geçen satırı bul
+sed -i "${FIND_LINE_NO}s/Chia/${HOSTNAME}/" config.yaml #Chia saniye değerini $HOSTNAME ile değiştir
